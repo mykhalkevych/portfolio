@@ -1,4 +1,15 @@
-const css = require('../sass/style.css');
-const sass = require('../sass/main.scss');
+
+import '../sass/main.scss';
+
+import 'materialize-css';
 
 console.log('Hello webpack');
+$(function(){
+
+	$(".button-collapse").sideNav({
+		menuWidth: 300, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+	});
+});

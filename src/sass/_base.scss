@@ -1,0 +1,32 @@
+body{
+	color: #545454;
+}
+p{
+	font-size: 1.3rem;
+}
+@media #{$large-and-up} {
+  .container {
+    width: 85%;
+  }
+}
+
+section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	.section-title{
+		font-size: 48px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 0;
+	}
+	.section-subtitle{
+		font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-transform: uppercase;
+	}
+}

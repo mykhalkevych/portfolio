@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title><%= htmlWebpackPlugin.options.title %></title>
-</head>
-<body>
-	<p>Document</p>
-</body>
-</html>
+
+   <%= require('html-loader!./includes/header.html') %>
+
+   <%= require('html-loader!./includes/home-section.html') %>
+   <%= require('html-loader!./includes/about-section.html') %>
+   <%= require('html-loader!./includes/skills-section.html') %>
+
+   <%= require('html-loader!./includes/footer.html') %>

@@ -1,0 +1,37 @@
+.side-nav{
+
+	.userView{
+		background: rgba(0,0,0,0.6);
+		margin-bottom: 15px;
+
+		.background{
+			img{
+				width: 100%;
+			}
+		}
+
+		.name{
+			font-size: 20px;
+		}
+	}
+	li{
+
+		& > a{
+			height: 60px;
+			line-height: 60px;
+			border-bottom: 1px solid $primary-color;
+			i{
+				font-size: 16px;
+				height: 100%;
+				line-height: inherit;
+				color: $secondary-color;
+			}
+		}
+	}
+	&:last-child{
+		& > a {
+			border: none;
+		}
+	}
+
+}

@@ -1,10 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Site</title>
-<link href="./css/style.css" rel="stylesheet"></head>
-<body>
-	<p>Document</p>
-<script type="text/javascript" src="./js/main.bundle.js"></script></body>
-</html>
+
+   <!DOCTYPE html> <html lang=en> <head> <meta charset=UTF-8> <title>SITE</title> <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel=stylesheet> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet> <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css> <script src=https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js></script> <link href="./css/style.css" rel="stylesheet"></head> <body> <nav> <div class=container> <div class=nav-wrapper> <a href=# class=brand-logo>MNV</a> <ul class="right hide-on-med-and-down"> <li class=""><a href=#about data-section=#about class=menu-smooth-scroll>About Me</a> </li> <li><a href=#resume data-section=#resume class=menu-smooth-scroll>Resume</a> </li> <li><a href=#portfolio data-section=#portfolio class=menu-smooth-scroll>Portfolio</a> </li> <li><a href=#team data-section=#team class=menu-smooth-scroll>Team</a> </li> <li><a href=#testimonial data-section=#testimonial class=menu-smooth-scroll>Testimonial</a> </li> <li><a href=#contact data-section=#contact class=menu-smooth-scroll>Contact</a> </li> </ul> <a href=# data-activates=nav-mobile class=button-collapse><i class=material-icons>menu</i></a> <ul id=nav-mobile class=side-nav> <li><div class=userView> <div class=background> <img src=../images/home.jpeg alt=""> </div> <a href=#!user><img class=circle src=../images/avatar.png alt=""></a> <a href=#!name><span class="white-text name">John Doe</span></a> <a href=#!email><span class="white-text email">jdandturk@gmail.com</span></a> </div></li> <li class=""><a href=#about data-section=#about class=menu-smooth-scroll><i class="fa fa-user fa-fw"></i>About Me</a> </li> <li><a href=#resume data-section=#resume class=menu-smooth-scroll><i class="fa fa-file-text fa-fw"></i>Resume</a> </li> <li><a href=#portfolio data-section=#portfolio class=menu-smooth-scroll><i class="fa fa-briefcase fa-fw"></i>Portfolio</a> </li> <li><a href=#team data-section=#team class=menu-smooth-scroll><i class="fa fa-users fa-fw"></i>Team</a> </li> <li><a href=#testimonial data-section=#testimonial class=menu-smooth-scroll><i class="fa fa-comments fa-fw"></i>Testimonial</a> </li> <li><a href=#contact data-section=#contact class=menu-smooth-scroll><i class="fa fa-paper-plane fa-fw"></i>Contact</a> </li> </ul>  </div> </div> </nav><script type="text/javascript" src="./js/main.bundle.js"></script><script type="text/javascript" src="./js/vendor.bundle.js"></script></body></html>
+   <section id=home> <div class="center-align home-content"> <h1 class=home-title>HI! I'm <span>John Doe</span></h1> <h3 class=home-subtitle>UX/UI Designer from Dhaka, Bangladesh</h3> <a href=#contact class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i> </a> </div> </section>
+   <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          This is an inline input field:
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+   <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+    <footer class=page-footer> <div class=container> <div class=row> <div class="col l6 s12"> <h5 class=white-text>Footer Content</h5> <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> </div> <div class="col l4 offset-l2 s12"> <h5 class=white-text>Links</h5> <ul> <li><a class="grey-text text-lighten-3" href=#!>Link 1</a></li> <li><a class="grey-text text-lighten-3" href=#!>Link 2</a></li> <li><a class="grey-text text-lighten-3" href=#!>Link 3</a></li> <li><a class="grey-text text-lighten-3" href=#!>Link 4</a></li> </ul> </div> </div> </div> <div class=footer-copyright> <div class=container> © 2014 Copyright Text <a class="grey-text text-lighten-4 right" href=#!>More Links</a> </div> </div> </footer> 

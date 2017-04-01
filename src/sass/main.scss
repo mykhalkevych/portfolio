@@ -1,4 +1,12 @@
-body{
-	color: #433;
-	font-size: 25px
-}
+@charset "UTF-8";
+
+@import "var";
+
+@import "~materialize-css/sass/materialize";
+
+@import "base";
+@import "modules/header";
+@import "modules/sidenav";
+@import "modules/home";
+@import "modules/about";
+
