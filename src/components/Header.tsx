@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header>
-      <h1>Nazar Myykhalkevych</h1>
+      <h1 className='text-3xl'>Nazar Myykhalkevych</h1>
       <h2>Frontend Developer</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim neque
