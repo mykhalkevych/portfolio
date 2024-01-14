@@ -1,4 +1,4 @@
-export const Skills = () => {
+export const Experience = () => {
   return (
     <div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae optio
