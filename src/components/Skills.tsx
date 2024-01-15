@@ -1,10 +1,17 @@
+import { ISkill } from '../interfaces/ISkill';
+import { skills as skillItems } from '../mocks';
+
 export const Skills = () => {
+  const skills: ISkill[] = skillItems;
+
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae optio
-      voluptatum? Asperiores laboriosam maiores maxime explicabo minima labore
-      repellendus, reiciendis, ducimus enim vero quas dolorem optio laborum
-      adipisci delectus.
+    <div className='flex gap-2'>
+      {skills.map((skill) => (
+        <span className='bg-teal-600 px-2.5 py-1 rounded-2xl bg-opacity-35 text-sm'>
+          {' '}
+          {skill.title}
+        </span>
+      ))}
     </div>
   );
 };
