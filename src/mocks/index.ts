@@ -18,4 +18,20 @@ export const skills: ISkill[] = [
     title: 'GIT',
     type: SkillType.Primary,
   },
+  {
+    title: 'React',
+    type: SkillType.Secondary,
+  },
+  {
+    title: 'Vue',
+    type: SkillType.Secondary,
+  },
+  {
+    title: 'Vuex',
+    type: SkillType.Secondary,
+  },
+  {
+    title: 'SCRUM',
+    type: SkillType.Others,
+  },
 ];
